@@ -1,0 +1,2197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: chbg 2010-03-05\n"
+"POT-Creation-Date: 2001-08-02 22:50+0200\n"
+"PO-Revision-Date: 2016-05-28 14:39+0200\n"
+"Last-Translator: nikos papadopoulos <231036448@freemail.gr>\n"
+"Language-Team: el <translators_team@mandrivalinux.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"X-Generator: Poedit 1.6.9\n"
+
+#: banner.c:22
+#: chbg.c:1557
+#: chbg.c:1581
+#: setup.c:634
+#: setup.c:681
+#: setup.c:2518
+#: setup.c:2656
+#: setup.c:3152
+#: setup.c:3313
+#: shader.c:798
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: config.c:454
+msgid "Use -h option to print full list of available options\n"
+msgstr "Χρησιμοποίησε την επιλογή -h για να εκτυπωθεί ένας κατάλογος με όλες τις διαθέσιμες επιλογές\n"
+
+#: config.c:461
+#, c-format
+msgid ""
+"Usage:  %s  [options] [any number of pictures]\n"
+"%s-%s\n"
+msgstr ""
+"Χρήση:  %s  [επιλογές] [ένα οποιοδήποτε πλήθος εικόνων]\n"
+"\n"
+"%s-%s\n"
+
+#: config.c:464
+msgid "\t-v                    - print version number and exit\n"
+msgstr "\t-v                    - εκτύπωση του αριθμού έκδοσης και, μετά, έξοδος\n"
+
+#: config.c:465
+msgid "\t-h                    - print this help message and exit\n"
+msgstr "\t-h                    - εκτύπωση αυτού του μηνύματος και έξοδος\n"
+
+#: config.c:466
+msgid "\t-setup                - start setup window\n"
+msgstr "\t-setup                - εκκίνηση του παραθύρου ρύθμισης\n"
+
+#: config.c:467
+msgid "\t-scenario $file       - fetch parameters from file $file\n"
+msgstr "\t-scenario $αρχείο     - λήψη των παραμέτρων από το $αρχείο\n"
+
+#: config.c:468
+msgid ""
+"\t-mode $type           - set picture rendering mode, mode is\n"
+"\t                        one of following:\n"
+"\t                        : tile\n"
+"\t                        : mirror\n"
+"\t                        : center\n"
+"\t                        : maximize\n"
+"\t                        : smart\n"
+"\t                        : centertile\n"
+"\t                        : inttile\n"
+"\t                        : symtile\n"
+"\t                        : intmirror\n"
+"\t                        : symmirror\n"
+msgstr ""
+"\t-mode $τύπος          - όρισε τη λειτουργία αποτύπωσης των εικόνων,\n"
+"\t                        η οποία μπορεί να είναι μία από τις παρακάτω:\n"
+"\t                          : tile             - μωσαϊκό\n"
+"\t                          : mirror           - καθρεπτισμός\n"
+"\t                          : center           - κεντράρισμα\n"
+"\t                          : maximize         - μεγιστοποίηση\n"
+"\t                          : smart            - έξυπνη\n"
+"\t                          : centertile       - κεντραρισμένα πλακίδια\n"
+"\t                          : inttile          - εσωτερικά πλακίδια\n"
+"\t                          : symtile          - συμμετρικά πλακίδια\n"
+"\t                          : intmirror        - εσωτερικός καθρεπτισμός\n"
+"\t                          : symmirror        - συμμετρικός καθρεπτισμός\n"
+
+#: config.c:480
+#, c-format
+msgid "\t-effect $nr           - effect type for changing pictures [0-%d]\n"
+msgstr "\t-effect $νούμερο      - ο τύπος του εφέ αλλαγής των εικόνων [0-%d]\n"
+
+#: config.c:481
+msgid "\t-bg $color            - set default background color 1\n"
+msgstr "\t-bg  $χρώμα           - όρισε το προεπιλεγμένο χρώμα παρασκηνίου 1\n"
+
+#: config.c:482
+msgid "\t-bg2 $color           - set default background color 2\n"
+msgstr "\t-bg2 $χρώμα           - όρισε το προεπιλεγμένο χρώμα παρασκηνίου 2\n"
+
+#: config.c:483
+msgid "\t-rand_colors          - randomize background colors\n"
+msgstr "\t-rand_colors          - τυχαιοποίηση των χρωμάτων παρασκηνίου\n"
+
+#: config.c:484
+#, c-format
+msgid ""
+"\t-shader $nr           - set background color shading effect\n"
+"\t                        type [0-%d]\n"
+msgstr ""
+"\t-shader $αριθμός      - ορίζει τον τύπο του εφέ σκίασης \n"
+"\t                        του χρώματος παρασκηνίου [0-%d]\n"
+
+#: config.c:486
+msgid ""
+"\t-interval $start[-$end]\n"
+"\t                      - time between picture changes\n"
+msgstr ""
+"\t-interval $αρχή[-$τέλος]\n"
+"\t                      - ο χρόνος εναλλαγής των εικόνων \n"
+
+#: config.c:488
+msgid ""
+"\t-max_grow $nr         - maximal growing ratio of picture in\n"
+"\t                        smart mode\n"
+msgstr ""
+"\t-max_grow $nr         - μέγιστη αναλογία ανάπτυξης της εικόνας\n"
+"\t                        στην έξυπνη λειτουργία\n"
+
+#: config.c:490
+msgid ""
+"\t-max_size $nr         - maximal size of picture in %% of screen size\n"
+"\t                        used in smart mode, acceptable value 10-100\n"
+msgstr ""
+"\t-max_size $nr         - το μέγιστο μέγεθος της εικόνας \n"
+"\t                        σε ποσοστό επί της %% του μεγέθους της οθόνης·\n"
+"\t                        χρησιμοποιείται στην έξυπνη λειτουργία·\n"
+"\t                        οι αποδεκτές τιμές είναι από 10 έως 100\n"
+
+#: config.c:492
+msgid "\t-randomize            - randomize picture order\n"
+msgstr "\t-randomize            - τυχαιοποίηση της σειράς των εικόνων\n"
+
+#: config.c:493
+msgid "\t-screensaver          - act as screensaver\n"
+msgstr "\t-screensaver          - λειτουργία σαν προστασία οθόνης\n"
+
+#: config.c:495
+msgid "\t-xscreensaver         - act as xscreensaver client\n"
+msgstr "\t-xscreensaver         - λειτουργία σαν \"πείραγμα\" του xscreensaver\n"
+
+#: config.c:497
+msgid ""
+"\t-speed $nr            - speed ratio for picture changing effects\n"
+"\t                        (lower is faster)\n"
+msgstr ""
+"\t-speed $αριθμός       - η αναλογία της ταχύτητας αλλαγής των εικόνων\n"
+"\t                        (το μικρότερο είναι γρηγορότερο)\n"
+
+#: config.c:499
+msgid "\t-blank                - show blank screen, when can't load picture\n"
+msgstr "\t-blank                - εμφάνιση κενής οθόνης, όταν είναι αδύνατο το φόρτωμα κάποιας εικόνας\n"
+
+#: config.c:500
+msgid ""
+"\t-cycle_blank          - when pictures not present cycle with blanking\n"
+"\t                        screen (optionally with shading)\n"
+msgstr ""
+
+#: config.c:502
+msgid "\t-R                    - recurse through directory\n"
+msgstr "\t-R                    - εις βάθος αναζήτηση στους υποκαταλόγους\n"
+
+#: config.c:503
+msgid ""
+"\t-pattern $ptrn        - wildcard pattern for picture selection in\n"
+"\t                        recursion through directories\n"
+msgstr ""
+
+#: config.c:505
+msgid "\t-inwindow             - run in own window not on root\n"
+msgstr "\t-inwindow             - εκτέλεση στο δικό του παράθυρο, όχι στο ριζικό\n"
+
+#: config.c:506
+msgid "\t-windowid $id         - run in existing X window with known window ID\n"
+msgstr ""
+"\t-windowid $αριθμός_ταυτότητας\n"
+"\t                      - εκτέλεση σε υπάρχον Χ παράθυρο, με γνωστό αριθμό ταυτότητας\n"
+
+#: config.c:507
+msgid ""
+"\t-run                  - start runining, after setup window is popped up\n"
+"\t                        (have effect only when used with -setup option)\n"
+msgstr ""
+"\t-run                  - εκκίνηση της εφαρμογής, μόλις εμφανιστεί το παράθυρο των ρυθμίσεων\n"
+"\t                        (λειτουργεί μόνο μαζί με την επιλογή -setup )\n"
+
+#: config.c:509
+msgid ""
+"\t-min_psize $nr        - minimal allowed size of picture when recursing\n"
+"\t                        directories\n"
+msgstr ""
+
+#: config.c:511
+msgid "\t-deffects $list       - list of disabled effects\n"
+msgstr "\t-deffects $λίστα      - λίστα με απενεργοποιημένα εφέ\n"
+
+#: config.c:512
+msgid "\t-dshaders $list       - list of disabled shaders\n"
+msgstr "\t-dshaders $λίστα      - λίστα με απενεργοποιημένες γρίλιες\n"
+
+#: config.c:513
+msgid "\t-notooltips           - disable tooltips in GUI setup\n"
+msgstr "\t-notooltips           - απενεργοποίηση των μηνυμάτων βοήθειας στο παράθυρο των ρυθμίσεων\n"
+
+#: config.c:514
+msgid "\t-friter $nr           - number of iterations for fractal based shaders\n"
+msgstr "\t-friter $αριθμός      - το πλήθος των επαναλήψεων, για τις γρίλιες που βασίζονται στα φρακτάλια\n"
+
+#: config.c:515
+msgid ""
+"\t-rect_size $nr        - size of rectangle used in picture changing\n"
+"\t                        effects\n"
+msgstr ""
+
+#: config.c:517
+msgid "\t-grad_dir $dir        - supply path to GIMP gradients directory\n"
+msgstr ""
+
+#: config.c:518
+msgid "\t-use_grad             - use GIMP gradients for shading background\n"
+msgstr ""
+
+#: config.c:519
+msgid "\t-grad $nr             - number of selected gradient (0 = random)\n"
+msgstr ""
+
+#: config.c:520
+msgid "\t-remember             - remember last picture\n"
+msgstr "\t-remember             - απομνημόνευση της τελευταίας εικόνας\n"
+
+#: config.c:521
+msgid "\t-sort                 - sort picture alphabeticaly\n"
+msgstr "\t-sort                 - αλφαβητική ταξινόμηση των φωτογραφιών\n"
+
+#: config.c:523
+msgid ""
+"\t-enlightenment        - set desktop background via Enlightenment WM\n"
+"\t                        when available\n"
+msgstr ""
+"\t-enlightenment        - ορίζει το παρασκήνιο της επιφάνειας εργασίας\n"
+"\t                        μέσω του γραφικού περιβάλλοντος χρήσης Ενλάιτενμεντ,\n"
+"                          όταν αυτό είναι διαθέσιμο\n"
+
+#: config.c:526
+msgid "\t-once                 - run one cycle of background changing and exit\n"
+msgstr "\t-once                 - εκτέλεση ενός κύκλου αλλαγής του παρασκηνίου, και μετά κλείσιμο\n"
+
+#: config.c:527
+msgid ""
+"\t-thumb $type          - show thumbnail view dialog, choose one of\n"
+"\t                        all - all thumbnails in one window\n"
+"\t                        dir - make thumbnail pages by directories\n"
+"\t                        page - show 25 thumbnails per window\n"
+msgstr ""
+"\t-thumb $τύπος         - εμφάνιση του διαλόγου προβολής των μικροεποσκοπήσεων·\n"
+"\t                        επέλεξε ένα από τα παρακάτω...\n"
+"\t                        all    - όλες οι μικροεπισκοπήσεις σε ένα παράθυρο\n"
+"\t                        dir    - δημιουργία σελίδων μικροεπισκοπήσεων ανά κατάλογο\n"
+"\t                        page   - εμφάνιση 25 μικροπεισκοπήσεων ανά παράθυρο\n"
+
+#: config.c:531
+msgid ""
+"\t-xpos $pos            - horizontal picture position on screen\n"
+"\t                        in smart mode (0.0-1.0)\n"
+msgstr ""
+"\t-xpos $pos            - οριζόντια θέση της εικόνας στην οθόνη,\n"
+"\t                        στην έξυπνη λειτουργία (0.0-1.0)\n"
+
+#: config.c:533
+msgid ""
+"\t-ypos $pos            - vertical picture position on screen\n"
+"\t                        in smart mode (0.0-1.0)\n"
+msgstr ""
+"\t-ypos $pos            - κάθετη θέση της εικόνας στην οθόνη,\n"
+"\t                        στην έξυπνη λειτουργία (0.0-1.0)\n"
+
+#: config.c:535
+msgid "\t-use_tiles            - use picture tiles for picture background\n"
+msgstr "\t-use_tiles            - χρήση πλακιδίων, για το παρασκήνιο της εικόνας\n"
+
+#: config.c:536
+msgid "\t-add_tile $file       - directory or file which will be used for tiles\n"
+msgstr "\t-add_tile $file       - ο κατάλογος ή το αρχείο που θα χρησιμοποιηθεί για τα πλάκίδια\n"
+
+#: config.c:537
+msgid "\t-tile $file           - default tile for picture background\n"
+msgstr "\t-tile $file           - το προεπιλεγμένο πλακίδιο για το παρασκήνιο της εικόνας\n"
+
+#: config.c:538
+msgid "\t-use_banners          - put banner on top of background picture\n"
+msgstr ""
+
+#: config.c:539
+msgid "\t-add_banner $file     - directory or file which will be used for banners\n"
+msgstr ""
+
+#: config.c:540
+msgid "\t-banner $file         - use image as banner\n"
+msgstr "\t-banner $αρχείο       - χρήση εικόνας ως λογότυπο\n"
+
+#: config.c:541
+msgid "\t-banner_xpos $pos     - horizontal banner position on screen\n"
+msgstr ""
+
+#: config.c:542
+msgid "\t-banner_ypos $pos     - vertical banner position on screen\n"
+msgstr ""
+
+#: config.c:543
+msgid "\t-banner_max_grow $nr  - maximal growing ratio of banner\n"
+msgstr ""
+
+#: config.c:544
+msgid "\t-banner_max_size $nr  - maximal size of banner in %% of screen size\n"
+msgstr ""
+
+#: config.c:545
+#, c-format
+msgid "\t-banner_mode $mode    - banner painting mode (0-%d)\n"
+msgstr ""
+
+#: config.c:546
+msgid "\t-to_file              - generate picture into file instead of to window\n"
+msgstr ""
+
+#: config.c:547
+msgid "\t-out_file $file       - name of file in which will be image written\n"
+msgstr ""
+
+#: config.c:548
+msgid ""
+"\t-out_file_width $nr   - width of picture when writing to file\n"
+"\t                        0 means - take width of root window\n"
+msgstr ""
+
+#: config.c:550
+msgid ""
+"\t-out_file_height $nr  - height of picture when writing to file\n"
+"\t                        0 means - take height of root window\n"
+msgstr ""
+
+#: config.c:552
+msgid ""
+"\t-force_nautilus       - force nautilus to use background picture\n"
+"\t                        set by chbg\n"
+msgstr ""
+
+#: config.c:554
+msgid "\t-send_expose          - send expose event when running in foreign window\n"
+msgstr ""
+
+#: config.c:676
+#, c-format
+msgid "unknown rendering type : %s\n"
+msgstr "άγνωστος τύπος αποτύπωσης : %s\n"
+
+#: config.c:692
+#, c-format
+msgid "unknown thumbnailview type: %s\n"
+msgstr "Άγνωστος τύπος προβολής μικροεπισκοπήσεων: %s\n"
+
+#: config.c:712
+msgid "bug in chbg - contact autor"
+msgstr "δυσλειτουργία στο chbg - επικοινώνησε με το δημιουργό"
+
+#: config.c:814
+#, c-format
+msgid "unknown option : %s\n"
+msgstr "άγνωστη επιλογή : %s\n"
+
+#: config.c:823
+#, c-format
+msgid "missing parameters for %s option\n"
+msgstr "λείπουν οι παράμετροι για την επιλογή %s \n"
+
+#: config.c:844
+#: config.c:853
+#: config.c:1424
+#: config.c:1444
+#, c-format
+msgid "unknown color: %s\n"
+msgstr "άγνωστο χρώμα: %s\n"
+
+#: config.c:863
+#: config.c:1034
+#: config.c:1404
+#: config.c:1567
+#, c-format
+msgid "bad grow value: %s, (positive float number required)\n"
+msgstr ""
+
+#: config.c:871
+#, c-format
+msgid "bad value: %s for option -min_psize\n"
+msgstr "κακή τιμή: %s για την επιλογή -min_psize\n"
+
+#: config.c:879
+#: config.c:888
+#, c-format
+msgid "bad list: %s for option %s\n"
+msgstr "κακιά λίστα: %s για την επιλογή %s\n"
+
+#: config.c:897
+#, c-format
+msgid "bad float value: %s\n"
+msgstr "κακή επιπλέουσα τιμή: %s\n"
+
+#: config.c:906
+#: config.c:1025
+#: config.c:1362
+#: config.c:1577
+#, c-format
+msgid "bad max_size value: %s, (10 - 100 required)\n"
+msgstr "κακή τιμή max_size : %s, (απαιτείται 10 - 100)\n"
+
+#: config.c:914
+#: config.c:1378
+#, c-format
+msgid "bad speed value: %s\n"
+msgstr "κακή τιμή ταχύτητας: %s\n"
+
+#: config.c:922
+#: config.c:1386
+#, c-format
+msgid "bad effect value: %s, (0 - %d required)\n"
+msgstr "κακή τιμή εφέ: %s, (απαιτείται 0 - %d)\n"
+
+#: config.c:930
+#: config.c:1395
+#, c-format
+msgid "bad shader value: %s, (0 - %d required)\n"
+msgstr "κακή τιμή γρίλιας: %s, (0 - %d απαιτείται)\n"
+
+#: config.c:939
+#, c-format
+msgid "bad windowid: %s\n"
+msgstr "κακός αριθμός ταυτότητας του παραθύρου: %s\n"
+
+#: config.c:947
+#, c-format
+msgid "bad value: %s for option -friter\n"
+msgstr "κακή τιμή: %s για την επιλογή -friter\n"
+
+#: config.c:955
+#, c-format
+msgid "bad value: %s for option -box_size\n"
+msgstr "κακή τιμή: %s για την επιλογή -box_size\n"
+
+#: config.c:963
+#, c-format
+msgid "bad value: %s for option -grad\n"
+msgstr "κακή τιμή: %s για την επιλογή -grad\n"
+
+#: config.c:1005
+#: config.c:1015
+#: config.c:1054
+#: config.c:1064
+#: config.c:1230
+#, c-format
+msgid "bad position value: %s, (0.0 - 1.0 required)\n"
+msgstr "κακή τιμή θέσης: %s, (απαιτείται 0.0 - 1.0)\n"
+
+#: config.c:1044
+#: config.c:1587
+#, c-format
+msgid "bad banner mode value: %s, (0-%d required)\n"
+msgstr "κακή τιμή λογότυπου: %s, (απαιτείται 0-%d)\n"
+
+#: config.c:1149
+#, c-format
+msgid "using image loader - %s\n"
+msgstr "χρησιμοποιείται ο φορτωτής εικόνας - %s\n"
+
+#: config.c:1165
+#: config.c:1598
+#, c-format
+msgid "bad width value: %s\n"
+msgstr "κακή τιμή πλάτους: %s\n"
+
+#: config.c:1171
+#: config.c:1603
+#, c-format
+msgid "bad height value: %s\n"
+msgstr "κακή τιμή ύψους: %s\n"
+
+#: config.c:1290
+#, c-format
+msgid ""
+"Unable to parse line:\n"
+"%s\n"
+msgstr ""
+"αδύνατη η ανάλυση της γραμμής:\n"
+"%s\n"
+
+#: config.c:1325
+#: config.c:1341
+#, c-format
+msgid "bad list: %s\n"
+msgstr "κακιά λίστα: %s\n"
+
+#: config.c:1350
+#, c-format
+msgid "bad interval value: %s\n"
+msgstr "κακή τιμή ενδιάμεσου διαστήματος: %s\n"
+
+#: config.c:1371
+#, c-format
+msgid "bad min_psize value: %s\n"
+msgstr "κακή τιμή min_psize: %s\n"
+
+#: config.c:1456
+#, c-format
+msgid "bad fractal iterations value: %s\n"
+msgstr "κακή τιμή των επαναλήψεων των φρακτάλιων: %s\n"
+
+#: config.c:1463
+#, c-format
+msgid "bad box size value: %s\n"
+msgstr "κακή τιμή μεγέθους της θήκης: %s\n"
+
+#: config.c:1482
+#, c-format
+msgid "bad gradient value: %s\n"
+msgstr "κακή τιμή διαβάθμισης: %s\n"
+
+#: config.c:1668
+msgid ""
+"# this is automaticaly generated chbg scenario file\n"
+"\n"
+msgstr ""
+"# αυτό είναι ένα αυτόματα παραγόμενο αρχείο σεναρίου του chbg\n"
+"\n"
+
+#: config.c:1940
+#, c-format
+msgid "Unable to parse: %s\n"
+msgstr "αδύνατη η ανάλυση: %s\n"
+
+#: config.c:1957
+#: config.c:1969
+#, c-format
+msgid "Unable to parse: \"%s\"\n"
+msgstr "αδύνατη η ανάλυση: \"%s\"\n"
+
+#: config.c:1991
+msgid "Unable to create ~/.chbg_prop file"
+msgstr "Αδυναμία δημιουργίας του αρχείου ~/.chbg_prop"
+
+#: config.c:1995
+msgid ""
+"# This file was generated by chbg\n"
+"# You may edit it if you're careful!\n"
+"\n"
+msgstr ""
+"# Αυτό το αρχείο παράχθηκε από το chbg\n"
+"# Μπορείς να το επεξεργαστείς,\n"
+"# αν είσαι προσεκτικός...\n"
+"\n"
+
+#: chbg.c:256
+msgid "Changing picture"
+msgstr "Αλλάζει η εικόνας"
+
+#: chbg.c:744
+msgid "Blanking screen"
+msgstr "Κενοποιείται η οθόνη"
+
+#: chbg.c:1231
+#: chbg.c:1292
+msgid "Loading image"
+msgstr "Φόρτωση εικόνας"
+
+#: chbg.c:1259
+msgid "Adjusting image"
+msgstr "Προσαρμόζεται η εικόνα"
+
+#: chbg.c:1724
+msgid "Scanning directory for pictures"
+msgstr "Σαρώνεται ο κατάλογος για εικόνες"
+
+#: chbg.c:1811
+#: chbg.c:1904
+#: chbg.c:1924
+msgid "Sleeping"
+msgstr "Υπό αναστολή"
+
+#: chbg.c:1937
+#, c-format
+msgid "removing picture \"%s\" from list\n"
+msgstr "αναίρεση της εικόνας \"%s\" από τη λίστα\n"
+
+#: chbg.c:1976
+msgid "only one picture available : changing not required"
+msgstr "μόνο μία εικόνα είναι διαθέσιμη: δεν απαιτείται αλλαγή"
+
+#: chbg.c:1980
+msgid "only one picture available : changing not required\n"
+msgstr "μόνο μία εικόνα είναι διαθέσιμη: δεν απαιτείται αλλαγή\n"
+
+#: chbg.c:1989
+msgid "unable to find any suitable picture"
+msgstr "αδυναμία εύρεσης οποιασδήποτε κατάλληλης εικόνας"
+
+#: chbg.c:1993
+msgid "unable to find any suitable picture\n"
+msgstr "αδυναμία εύρεσης οποιασδήποτε κατάλληλης εικόνας\n"
+
+#: chbg.c:2000
+msgid "Initializing"
+msgstr "Γίνεται αρχικοποίηση"
+
+#: chbg.c:2013
+#: chbg.c:2263
+#, c-format
+msgid "Unable to find window id - 0x%08lx\n"
+msgstr "Αδυναμία εύρεσης του αριθμού ταυτότητας του παραθύρου - 0x%08lx\n"
+
+#: chbg.c:2014
+msgid "Unable to find foreign window"
+msgstr "Αδυναμία εύρεσης ξένου παράθυρου"
+
+#: chbg.c:2041
+msgid "Unable to find xscreensaver window"
+msgstr "Αδυναμία εύρεσης του παράθυρου του xscreensaver"
+
+#: chbg.c:2045
+msgid "Unable to find xscreensaver window\n"
+msgstr "Αδυναμία εύρεσης του παράθυρου του xscreensaver\n"
+
+#: chbg.c:2241
+msgid "Requested to use Enlightenment, but Enlightenment not found!\n"
+msgstr "Ζητήθηκε η χρήση της Ενλάιτμεντ, αλλά η Ελάιτμεντ δεν βρέθηκε.\n"
+
+#: gui_tools.c:56
+#, c-format
+msgid "ChBg: select %s"
+msgstr "ChBg: επιλογή %s"
+
+#: gui_tools.c:145
+msgid "Browse ..."
+msgstr "Εξερεύνηση..."
+
+#: gui_tools.c:374
+#, c-format
+msgid "Size:  %d x %d  "
+msgstr "Μέγεθος:  %d Χ %d  "
+
+#: gui_tools.c:427
+msgid "preview"
+msgstr "προεπισκόπηση"
+
+#: gui_tools.c:441
+msgid "Auto preview"
+msgstr "Αυτόματη προεπισκόπηση"
+
+#: gui_tools.c:443
+msgid "Click on image to show a small preview."
+msgstr "Κλίκαρε σε μια εικόνα για να δεις μία μικρή προεπισκόπηση."
+
+#: gui_tools.c:455
+#: setup.c:2178
+msgid "Select All"
+msgstr "Επιλογή Όλων"
+
+#: gui_tools.c:464
+#: setup.c:3376
+#: setup.c:3471
+msgid "Append"
+msgstr "Προσάρτηση"
+
+#: gui_tools.c:466
+msgid "to choose multiple directories...hit OK button when done."
+msgstr "για να επιλεγούν πολλαπλοί κατάλογοι... χτύπα του κουμπί «Εντάξει», όταν είναι έτοιμο."
+
+#: gui_tools.c:472
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: gui_tools.c:473
+msgid "Preview last selected picture"
+msgstr "Προεπισκόπηση της τελευταίας επιλεγμένης εικόνας"
+
+#: operations.c:148
+msgid "Images selection"
+msgstr "Επιλογή εικόνας"
+
+#: operations.c:156
+msgid "Source Directory: "
+msgstr "Κατάλογος προέλευσης:"
+
+#: operations.c:161
+#: setup.c:2276
+msgid "Pattern for recursion: "
+msgstr "Μήτρα: "
+
+#: operations.c:183
+#: setup.c:2300
+msgid "Minimal picture size when recursing directories: "
+msgstr "Ελάχιστο μέγεθος εικόνας:"
+
+#: operations.c:198
+#: setup.c:2301
+msgid "kB"
+msgstr "kB"
+
+#: operations.c:248
+#: settings.c:327
+#: setup.c:1357
+#: thumb.c:1969
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: operations.c:347
+msgid "ChBg: batch scale (scaling ...)"
+msgstr "ChBg: ομαδική αλλαγή μεγέθους (αλλάζει ...)"
+
+#: operations.c:426
+msgid "ChBg: batch scaling"
+msgstr "ChBg: ομαδική αλλαγή μεγέθους"
+
+#: operations.c:427
+msgid "Scaling parameters"
+msgstr "Παράμετροι αλλαγής μεγέθους"
+
+#: operations.c:427
+msgid "Scale"
+msgstr "Κλιμάκωση"
+
+#: operations.c:433
+#: operations.c:720
+msgid "Destination directory: "
+msgstr "Κατάλογος προορισμού:"
+
+#: operations.c:437
+msgid "Dimensions: "
+msgstr "Διαστάσεις:"
+
+#: operations.c:459
+#: operations.c:737
+msgid "Additional convert options: "
+msgstr "Επιπλέον επιλογές μετατροπής: "
+
+#: operations.c:476
+msgid "Keep aspect ratio"
+msgstr "Διατήρηση λόγου διαστάσεων"
+
+#: operations.c:660
+msgid "ChBg: batch format conversion (converting ...)"
+msgstr "ChBg: ομαδική μετατροπή μορφής (μετατρέπεται ...)"
+
+#: operations.c:713
+msgid "ChBg: batch format conversion"
+msgstr "ChBg: ομαδική μετατροπή μορφής"
+
+#: operations.c:714
+msgid "Format conversion parameters"
+msgstr "Παράμετροι μετατροπής μορφής"
+
+#: operations.c:714
+msgid "Convert"
+msgstr "Μετατροπή"
+
+#: operations.c:724
+msgid "Image format: "
+msgstr "Μορφή εικόνας:"
+
+#: setup.c:141
+msgid "0) None"
+msgstr "00)  κανένα"
+
+#: setup.c:142
+msgid "1) Random"
+msgstr "01)  στη τύχη"
+
+#: setup.c:143
+msgid "2) C-Left, C-Right"
+msgstr "02)  γωνία-αριστερά, γωνία-δεξιά"
+
+#: setup.c:144
+msgid "3) C-Top, C-Bottom"
+msgstr "03)  γωνία-κορυφή, γωνία-πάτος"
+
+#: setup.c:145
+msgid "4) Left-C, Right-C"
+msgstr "04)  αριστερά-γωνία, δεξιά-γωνία"
+
+#: setup.c:146
+msgid "5) Top-C, Bottom-C"
+msgstr "05)  κορυφή-γωνία, πάτος-γωνία"
+
+#: setup.c:147
+msgid "6) Top-Bottom"
+msgstr "06)  πάνω - κάτω"
+
+#: setup.c:148
+msgid "7) Left-Right"
+msgstr "07)  αριστερά - δεξιά"
+
+#: setup.c:149
+msgid "8) Expanding Box-Full Screen"
+msgstr "08)  επεκτεινόμενη θήκη - πλήρης οθόνη"
+
+#: setup.c:150
+msgid "9) Full Screen-Tiny Box"
+msgstr "09)  πλήρης οθόνη - μικρή θήκη"
+
+#: setup.c:151
+msgid "10) Line Mesh Left-Right"
+msgstr "10)  σήτα γραμμής δεξιά - αριστερά"
+
+#: setup.c:152
+msgid "11) Line Fill Fade In Top-Bottom"
+msgstr "11)  ομαλή είσοδος γεμίσματος γραμμής στην κορυφή - στον πάτο"
+
+#: setup.c:153
+msgid "12) Boxed Mesh Fade In TopL-BottomR"
+msgstr "12)  ομαλή είσοδος σήτας σε θήκη πάνω αριστερά - κάτω δεξιά"
+
+#: setup.c:154
+msgid "13) TopL-BottomR"
+msgstr "13)  πάνω αριστερά - κάτω δεξιά"
+
+#: setup.c:155
+msgid "14) All 4 Corners-Center"
+msgstr "14)  όλες οι 4 γωνίες - στο κέντρο"
+
+#: setup.c:156
+msgid "15) All 4 Corners Scissor Cut-Center"
+msgstr "15)  καί οι τέσσερις γωνίες κόψιμο με το ψαλίδι - κέντρο"
+
+#: setup.c:157
+msgid "16) Rectangular Border Fill In-Center"
+msgstr "16)  γέμισμα τετράγωνου περιθωρίου - κέντρο"
+
+#: setup.c:158
+msgid "17) Center-Rectangular Border Fill In"
+msgstr "17)  κέντρο - γέμισμα τετράγωνου περιθωρίου"
+
+#: setup.c:159
+msgid "18) Boxed Mesh Fill Out"
+msgstr "18)  άδειασμα σήτας σε θήκη"
+
+#: setup.c:160
+msgid "19) Diagonal Scissor Cut Fill In"
+msgstr "19)  γέμισμα διαγώνιου κοψίματος με το ψαλίδι"
+
+#: setup.c:161
+msgid "20) Zigzag Diagonal Scissor Cut Fill In"
+msgstr "20)  γέμισμα διαγώνιου ζητοειδούς κοψίματος με το ψαλίδι"
+
+#: setup.c:162
+msgid "21) R-C, L-C Center Line Fill In"
+msgstr "21)  δεξιά-γωνία, αριστερά-γωνία γέμισμα κεντρικής γραμμής"
+
+#: setup.c:163
+msgid "22) T-C, B-C Line Fill In"
+msgstr "22)  κορυφή-γωνία, πάτος-γωνία γέμισμα γραμμής"
+
+#: setup.c:164
+msgid "23) Pixel Fill In"
+msgstr "23)  γέμισμα πίξελων"
+
+#: setup.c:165
+msgid "24) Line Draw Top-Bottom"
+msgstr "24)  τράβηγμα γραμμής στην κορυφή - πάτος"
+
+#: setup.c:166
+msgid "25) Line Draw Left-Right"
+msgstr "25)  τράβηγμα γραμμής αριστερά - δεξιά"
+
+#: setup.c:167
+msgid "26) Line Mesh Fade In Side-C, C-Side"
+msgstr "26)  ομαλή είσοδος σήτας σε κούτα πλευρά-γωνία, γωνία-πλευρά"
+
+#: setup.c:168
+msgid "27) Line Mesh Fade In Top&B-C, C-Top&B"
+msgstr "27)  ομαλή είσοδος σήτας σε κούτα πάνω κ' κάτω-γωνία, γωνία-πάνω κ' κάτω"
+
+#: setup.c:169
+msgid "28) Wiggly Squiggly Left-Right"
+msgstr "28)  φιδίσια αριστερά - δεξιά"
+
+#: setup.c:170
+msgid "29) Wiggy Jiggy Outer-Inner"
+msgstr "29)  φιδίσια νευρικά έξω -μέσα"
+
+#: setup.c:174
+msgid "Super fast"
+msgstr "υπεργρήγορη"
+
+#: setup.c:175
+msgid "Very fast"
+msgstr "πολύ γρήγορη"
+
+#: setup.c:176
+msgid "Fast"
+msgstr "γρήγορη"
+
+#: setup.c:177
+msgid "Medium"
+msgstr "μέτρια"
+
+#: setup.c:178
+msgid "Slow"
+msgstr "αργή"
+
+#: setup.c:179
+msgid "Very slow"
+msgstr "πολύ αργή"
+
+#: setup.c:180
+msgid "Super slow"
+msgstr "υπεραργή"
+
+#: setup.c:208
+#, c-format
+msgid "ChBg setup [%s]"
+msgstr "ChBg ρύθμιση [%s]"
+
+#: setup.c:211
+msgid "ChBg setup"
+msgstr "ChBg ρύθμιση"
+
+#: setup.c:924
+#: setup.c:1103
+msgid "Unable to load scenario"
+msgstr "Αδυναμία φόρτωσης του σεναρίου"
+
+#: setup.c:1124
+msgid "ChBg: Load scenario"
+msgstr "ChBg: Φόρτωση σεναρίου"
+
+#: setup.c:1194
+msgid "ChBg: Save scenario"
+msgstr "ChBg: Αποθήκευση του σεναρίου"
+
+#: setup.c:1322
+msgid "ChBg: About"
+msgstr "ChBg: Σχετικά με..."
+
+#: setup.c:1349
+#, c-format
+msgid ""
+"ChBg %s\n"
+"\n"
+"Manager & changer of background pictures\n"
+"\n"
+"By Stefan Ondrejicka\n"
+"\n"
+"(ondrej@idata.sk)\n"
+"\n"
+"URL: http://www.idata.sk/~ondrej/chbg/\n"
+msgstr ""
+"ChBg %s\n"
+"\n"
+"Διαχείριση κ' αλλαγή των εικόνων παρασκηνίου\n"
+"\n"
+"Από τον Στεφάν Ονντρεζιήκα\n"
+"(Stefan Ondrejicka)\n"
+"\n"
+"(ondrej@idata.sk)\n"
+"\n"
+"URL: http://www.idata.sk/~ondrej/chbg/\n"
+
+#: setup.c:1443
+msgid "ChBg: Get pictures"
+msgstr "ChBg: Λήψη φορτωγραφιών"
+
+#: setup.c:1520
+#: setup.c:1635
+msgid "(none)"
+msgstr "(κανένα)"
+
+#: setup.c:1649
+msgid "ChBg: Picture properties"
+msgstr "ChBg: Ιδιότητες εικόνας"
+
+#: setup.c:1684
+msgid "Own properties"
+msgstr "Ίδιες ιδιότητες"
+
+#: setup.c:1706
+#: setup.c:2878
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: setup.c:1713
+msgid "Apply to selected"
+msgstr "Εφαρμογή στα επιλεγμένα"
+
+#: setup.c:1719
+#: setup.c:2884
+#: setup.c:3390
+#: setup.c:3485
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: setup.c:1725
+#: setup.c:2890
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: setup.c:1731
+#: setup.c:2896
+#: shaderpv.c:841
+#: thumb.c:2332
+#: thumb.c:2549
+#: thumb.c:2735
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: setup.c:1787
+msgid "Open scenario ..."
+msgstr "Άνοιγμα σεναρίου..."
+
+#: setup.c:1795
+msgid "Save scenario ..."
+msgstr "Αποθήκευση του σεναρίου..."
+
+#: setup.c:1808
+msgid "Last scenarios"
+msgstr "Τελευταία σενάρια"
+
+#: setup.c:1822
+msgid "Quit"
+msgstr "Τερματισμός"
+
+#: setup.c:1830
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: setup.c:1838
+msgid "Run"
+msgstr "Εκτέλεση"
+
+#: setup.c:1847
+msgid "Hide window & run"
+msgstr "Απόκρυψη του παράθυρου κ' εκτέλεση"
+
+#: setup.c:1855
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: setup.c:1864
+msgid "_Action"
+msgstr "_Ενέργεια"
+
+#: setup.c:1873
+msgid "Enable tooltips"
+msgstr "Ενεργοποίηση συμβουλών οθόνης"
+
+#: setup.c:1885
+msgid "Apply changes"
+msgstr "Εφαρμογή αλλαγών"
+
+#: setup.c:1893
+#: setup.c:2364
+msgid "Reset configuration"
+msgstr "Επαναφορά ρύθμισης"
+
+#: setup.c:1905
+msgid "Settings ..."
+msgstr "Ρυθμίσεις ..."
+
+#: setup.c:1913
+msgid "_Config"
+msgstr "_Ρύθμιση"
+
+#: setup.c:1921
+msgid "Shaders preview page ..."
+msgstr "Σελίδα προεπισκόπησης των γριλιών..."
+
+#: setup.c:1934
+msgid "All thumbnails preview ..."
+msgstr "Προβολή όλων των μικροεπισκοπήσεων..."
+
+#: setup.c:1943
+msgid "Page thumbnails preview ..."
+msgstr "Προβολή προεπισκοπήσεων ανά σελίδα..."
+
+#: setup.c:1951
+msgid "Dir thumbnails preview ..."
+msgstr "Μικροεπισκοπήσεις των εικόνων καταλόγου..."
+
+#: setup.c:1959
+msgid "_Preview"
+msgstr "_Προεπισκόπηση"
+
+#: setup.c:1967
+#: thumb.c:2264
+msgid "Batch rescaling ..."
+msgstr "Ομαδική αλλαγή μεγέθους..."
+
+#: setup.c:1975
+#: thumb.c:2270
+msgid "Batch conversion ..."
+msgstr "Ομαδική μετατροπή..."
+
+#: setup.c:1984
+msgid "_Tools"
+msgstr "Ερ_γαλεία"
+
+#: setup.c:1992
+msgid "About ..."
+msgstr "Σχετικά με..."
+
+#: setup.c:2001
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: setup.c:2112
+msgid "Picture list"
+msgstr "Λίστα εικόνων"
+
+#: setup.c:2125
+msgid "Background pictures"
+msgstr "Εικόνες παρασκηνίου"
+
+#: setup.c:2162
+#: setup.c:3496
+msgid "Set properties ..."
+msgstr "Ορισμός των ιδιοτήτων..."
+
+#: setup.c:2170
+msgid "Delete selected"
+msgstr "Απομάκρυνση των επιλεγμένων"
+
+#: setup.c:2186
+#: thumb.c:2120
+msgid "Unselect"
+msgstr "Απεπιλογή"
+
+#: setup.c:2194
+msgid "Preview image ..."
+msgstr "Προεπισκόπηση της εικόνας ..."
+
+#: setup.c:2201
+msgid "Preview image fullscreen ..."
+msgstr "Προεπισκόπηση της εικόνας σε πλήρη οθόνη"
+
+#: setup.c:2212
+msgid "All thumbnails ..."
+msgstr "Όλες οι μικροεπισκοπήσεις..."
+
+#: setup.c:2220
+msgid "Page thumbnails ..."
+msgstr "Μικροεπισκοποήσεις σελίδας..."
+
+#: setup.c:2228
+msgid "Dir thumbnails ..."
+msgstr "Μικροεπισκοπήσεις καταλόγου..."
+
+#: setup.c:2237
+msgid "Append pictures ..."
+msgstr "Προσθήκη εικόνων..."
+
+#: setup.c:2239
+msgid "Choose which images or directories of images you wish to add to your picture list."
+msgstr "Επέλεξε ποιες εικόνες, ή ποιοι κατάλογοι με εικόνες, θα ήθελες να προστεθούν στη λίστα των εικόνων."
+
+#: setup.c:2247
+msgid "Recursion parameters"
+msgstr "Παράμετροι εις βάθος αναζήτησης"
+
+#: setup.c:2249
+msgid "Sort pictures"
+msgstr "Ταξινόμηση των εικόνων"
+
+#: setup.c:2250
+msgid "Show pictures in alphabetical order."
+msgstr "Εμφάνιση των εικόνων σε αλφαβητική σειρά."
+
+#: setup.c:2255
+msgid "Recurse through directories"
+msgstr "Εις βάθος αναζήτηση στους καταλόγους"
+
+#: setup.c:2256
+msgid "Scans sub-directories for pictures.Example: choose /home/photos only and it'll display all photos in /home/photos/family and /home/photos/friends."
+msgstr ""
+"Σαρώνει τους υποκατάλογους για εικόνες. \n"
+"Για παράδειγμα: \n"
+"αν επιλέξεις μόνο τον κατάλογο «/home/Φωτογραφίες», \n"
+"θα εμφανιστούν και όλες οι φωτογραφίες, \n"
+"που είναι στους υποκατάλογους«/home/Φωτογραφίες/οικογένεια» \n"
+"και «/home/Φωτογραφίες/φίλοι»."
+
+#: setup.c:2282
+msgid "which type(s) of image(s) you wish to display (case-insensitive) (you can enter multiple space separated wildcard patterns)"
+msgstr ""
+
+#: setup.c:2304
+msgid "Useful for excluding small pictures or thumbnails."
+msgstr "Χρησιμεύει στο να παραλείπονται μικρές εικόνες, ή μικροεπισκοπήσεις."
+
+#: setup.c:2353
+msgid "Open scenario"
+msgstr "Άνοιγμα σεναρίου"
+
+#: setup.c:2356
+msgid "Save scenario"
+msgstr "Αποθήκευση του σεναρίου"
+
+#: setup.c:2361
+msgid "Apply setup changes"
+msgstr "Εφαρμογή των αλλαγών των ρυθμίσεων"
+
+#: setup.c:2369
+msgid "Run with actual settings"
+msgstr "Εκτέλεση με τις παρούσες ρυθμίσεις"
+
+#: setup.c:2373
+msgid "Hide Setup window and run with actual settings"
+msgstr "Κρύψιμο του παραθύρου των ρυθμίσεων, και εκτέλεση με τις παρούσες επιλογές"
+
+#: setup.c:2376
+msgid "Stop changing pictures"
+msgstr "Σταμάτημα εναλλαγής των εικόνων"
+
+#: setup.c:2380
+msgid "Immediately quit"
+msgstr "Άμεσος τερματισμός"
+
+#: setup.c:2482
+#: setup.c:2620
+msgid "ChBg: Get new tiles"
+msgstr "ChBg: Λήψη νέων πλακιδίων"
+
+#: setup.c:2693
+msgid "Normal"
+msgstr "Κανονική"
+
+#: setup.c:2694
+msgid "Average"
+msgstr "Μέση τιμή"
+
+#: setup.c:2695
+msgid "Lighten only"
+msgstr "Φωτισμός μόνο"
+
+#: setup.c:2696
+msgid "Darken only"
+msgstr "Σκοτείνιασμα μόνο"
+
+#: setup.c:2697
+msgid "Divide"
+msgstr "Διαίρεση"
+
+#: setup.c:2698
+msgid "Multiply"
+msgstr "Πολλαπ/μός"
+
+#: setup.c:2699
+msgid "Multiply bg value"
+msgstr "Πολλαπλασιασμός της τιμής του παρασκηνίου"
+
+#: setup.c:2700
+msgid "Multiply fg value"
+msgstr "Πολλαπλασιασμός της τιμής του προσκηνίου"
+
+#: setup.c:2701
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: setup.c:2702
+msgid "Subtract bg"
+msgstr "Εξέλκυση του παραρασκηνίου"
+
+#: setup.c:2703
+msgid "Subtract fg"
+msgstr "Εξέλκυση του προσκηνίου"
+
+#: setup.c:2704
+msgid "Grayscale"
+msgstr "Διαβάθμιση του γκρι"
+
+#: setup.c:2705
+msgid "Bumpmap to bg"
+msgstr "Ανάγλυφος χάρτης στο παρασκήνιο"
+
+#: setup.c:2706
+msgid "Bumpmap self"
+msgstr "Ανάγλυφος χάρτης στον εαυτό του"
+
+#: setup.c:2707
+msgid "Emboss"
+msgstr "Ανάγλυφο"
+
+#: setup.c:2711
+msgid "Default banner properties"
+msgstr "Προεπιλεγμένες ιδιότητες του λογότυπου"
+
+#: setup.c:2720
+msgid "Max grow ratio for banner: "
+msgstr "Μέγιστη αναλογία ανάπτυξης για το λογότυπο: "
+
+#: setup.c:2720
+#: setup.c:3062
+msgid "x"
+msgstr "x"
+
+#: setup.c:2724
+msgid ""
+"Maximal allowed banner scaling factor. (default 1.0)\n"
+"Real scaling factor depends on picture and screen size\n"
+msgstr ""
+
+#: setup.c:2728
+msgid "Maximal size of screen taken by banner: "
+msgstr "Μέγιστο μέγεθος της οθόνης που μπορεί να καταληφθεί από το ανάγλυφο: "
+
+#: setup.c:2729
+#: setup.c:3071
+#, c-format
+msgid "%"
+msgstr "%"
+
+#: setup.c:2733
+msgid "Set to below 100% to see background banner background in all cases. (default 90%)"
+msgstr "Όρισέ το κάτω από το 100%, για να φαίνονται, πάντα, τα λογότυπα του παρασκηνίου. (η προεπιλογή είναι 90%)"
+
+#: setup.c:2737
+msgid "Horizontal banner position: "
+msgstr "Οριζόντια θέση της εικόνας: "
+
+#: setup.c:2742
+#: setup.c:3084
+msgid "Vertical picture position: "
+msgstr "Κάθετη θέση της εικόνας: "
+
+#: setup.c:2746
+msgid "Banner painting mode: "
+msgstr "Λειτουργία χρωματισμού του λογότυπου: "
+
+#: setup.c:2857
+msgid "Banner properties"
+msgstr "Ιδιότητες του λογότυπου"
+
+#: setup.c:2944
+msgid "Tile picture"
+msgstr "Μωσαϊκό εικόνας"
+
+#: setup.c:2945
+msgid "Tile mirrored picture"
+msgstr "Μωσαϊκό καθρεπτισμένης εικόνας"
+
+#: setup.c:2946
+msgid "Maximize picture"
+msgstr "Μεγιστοποίηση εικόνας"
+
+#: setup.c:2947
+msgid "Center picture"
+msgstr "Κεντράρισμα εικόνας"
+
+#: setup.c:2948
+msgid "Center tiled picture"
+msgstr "Κεντραρισμένο μωσαϊκό εικόνας"
+
+#: setup.c:2949
+msgid "Integer tiled picture"
+msgstr "Ακέραιο μωσαϊκό εικόνας"
+
+#: setup.c:2950
+msgid "Symmetrical tiled picture"
+msgstr "Συμμετρικό μωσαϊκό εικόνας"
+
+#: setup.c:2951
+msgid "Integer mirrored picture"
+msgstr "Ακέραιη καθρεπτισμένη εικόνα"
+
+#: setup.c:2952
+msgid "Symmetrical mirrored picture"
+msgstr "Συμμετρικά καθρεπτισμένη εικόνα"
+
+#: setup.c:2953
+msgid "Smart resized centered picture"
+msgstr "Έξυπνης αλλαγής μεγέθους κεντραρισμένη εικόνα"
+
+#: setup.c:2959
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: setup.c:2966
+msgid "Interval: "
+msgstr "Μεσοδιάστημα:"
+
+#: setup.c:2979
+#: setup.c:3007
+msgid ": "
+msgstr ": "
+
+#: setup.c:2992
+msgid "-- "
+msgstr "-- "
+
+#: setup.c:3022
+msgid "Rendering Mode"
+msgstr "Λειτουργία απόδοσης"
+
+#: setup.c:3051
+msgid "Smart rendering mode setup"
+msgstr "Ρύθμιση λειτουργίας έξυπνης αποτύπωσης"
+
+#: setup.c:3062
+msgid "Max grow ratio for picture: "
+msgstr "Μέγιστη αναλογία ανάπτυξης για μια εικόνα: "
+
+#: setup.c:3065
+msgid ""
+"Maximal allowed picture scaling factor. (default 1.0)\n"
+"Real scaling factor depends on picture and screen size\n"
+msgstr ""
+"Ο μέγιστος επιτρεπόμενος παράγοντας αλλαγής του μεγέθους της εικόνας. (η προεπιλογή είναι 1.0)\n"
+"Ο πραγματικός παράγοντας αλλαγής του μεγέθους εξαρτάται από την εικόνα και από το μέγεθος της οθόνης.\n"
+
+#: setup.c:3070
+msgid "Maximal size of screen taken by picture: "
+msgstr "Μέγιστο μέγεθος της οθόνης που μπορεί να καταληφθεί από την εικόνα: "
+
+#: setup.c:3075
+msgid "Set to below 100% to see background shading effects in all cases. (default 90%)"
+msgstr "Όρισέ το κάτω από 100%, για να φαίνονται, πάντα, τα εφέ σκίασης του παρασκηνίου. (η προεπιλογή είναι 90%)"
+
+#: setup.c:3079
+msgid "Horizontal picture position: "
+msgstr "Οριζόντια θέση της εικόνας: "
+
+#: setup.c:3093
+msgid "Effects"
+msgstr "Εφέ"
+
+#: setup.c:3104
+msgid "Picture changing effect "
+msgstr "Εφέ αλλαγής των εικόνων"
+
+#: setup.c:3107
+msgid "[0-29] various transition effects between pictures."
+msgstr "[0-29] διάφορα εφέ μετάβασης μεταξύ των εικόνων."
+
+#: setup.c:3135
+msgid "Background shading effect"
+msgstr "Εφέ σκίασης του παρασκηνίου"
+
+#: setup.c:3138
+msgid "[0-527] Blends color1 & color2 to create various background shades.(see Randomize background colors)"
+msgstr "[0-527] Ανάμιξη του χρώματος1 κ' του χρώματος2 για τη δημιουργία σκιών παρασκηνίου.(δες Τυχαιοποίηση χρωμάτων παρασκηνίου)"
+
+#: setup.c:3150
+msgid "None"
+msgstr "Κανένα"
+
+#: setup.c:3172
+msgid "Background"
+msgstr "Παρασκήνιο"
+
+#: setup.c:3182
+msgid "Background coloring mode: "
+msgstr "Κατάσταση λειτουργίας των χρωμάτων παρασκηνίου: "
+
+#: setup.c:3189
+msgid "Choose if for shading backround use only two blended colors, free colored GIMP gradients or tiled pictures."
+msgstr ""
+
+#: setup.c:3195
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: setup.c:3200
+#: setup.c:3349
+#: setup.c:3362
+msgid "Tiles"
+msgstr "Πλακίδια"
+
+#: setup.c:3207
+#: setup.c:3305
+msgid "Gradient"
+msgstr "Βαθμίδα"
+
+#: setup.c:3218
+msgid "Randomize background colors"
+msgstr "Τυχαιοποίηση των χρωμάτων παρασκηνίου"
+
+#: setup.c:3220
+msgid "Hint: Choose this option, hit checkmark Apply Setup Changes ,choose Tools/Shaders preview page to see random two colored shading effects each time it's open."
+msgstr ""
+
+#: setup.c:3230
+msgid "Background color: "
+msgstr "Χρώμα παρασκηνίου:"
+
+#: setup.c:3253
+msgid "Background color2: "
+msgstr "Χρώμα παρασκηνίου2: "
+
+#: setup.c:3266
+msgid "This background color applies only when background shading is enabled."
+msgstr ""
+
+#: setup.c:3298
+msgid "GIMP gradients"
+msgstr "Διαβαθμίσεων του ΓΚΙΜΠ"
+
+#: setup.c:3308
+msgid "Various GIMP gradients which should be used for coloring background shading effects."
+msgstr ""
+
+#: setup.c:3365
+msgid "Various tilable pixmaps for picture background."
+msgstr "Διάφορα αρχεία ομοιοπαραθούμενα Πίξμαπ, για το παρασκήνιο της εικόνας."
+
+#: setup.c:3383
+#: setup.c:3478
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: setup.c:3401
+#: setup.c:3506
+msgid "View picture ..."
+msgstr "Προβολή της εικόνας..."
+
+#: setup.c:3421
+#: setup.c:3526
+msgid "Tile: "
+msgstr "Πλακίδιο"
+
+#: setup.c:3437
+#: setup.c:3457
+msgid "Banners"
+msgstr "Λογότυπα"
+
+#: setup.c:3441
+msgid "Use banners"
+msgstr "Χρήση λογότυπων"
+
+#: setup.c:3460
+msgid "Banners which will be drawn on top of background picture."
+msgstr ""
+
+#: setup.c:3562
+msgid "Mode"
+msgstr "Κατάσταση Λειτουργίας"
+
+#: setup.c:3565
+msgid "Display mode"
+msgstr "Κατάσταση Λειτουργίας Προβολής"
+
+#: setup.c:3575
+msgid "Run in desktop background (root) window"
+msgstr "Εκτέλεση σε παρασκηνιακό (ριζικό) παράθυρο, στην επιφάνεια εργασίας"
+
+#: setup.c:3576
+msgid "Enable this option to let ChBg manage your desktop background."
+msgstr "Ενεργοποίησε αυτή την επιλογή, ώστε να μπορεί το ChBg να διαχειρίζεται το παρασκήνιο της επιφάνειας εργασίας."
+
+#: setup.c:3584
+msgid "Run in own window"
+msgstr "Εκτέλεση σε δικό του παράθυρο"
+
+#: setup.c:3586
+msgid ""
+"Runs in it's own window and doesn't change the root background (X11 Wallpaper).\n"
+"Use spacebar to skip forward to next picture, and Q key to hide the window."
+msgstr ""
+"Εκτελείτε σε δικό του παράθυρο, και δεν αλλάζει το ριζικό παρασκήνιο \n"
+"(την εικόνα παρασκηνίου του X11).\n"
+"Χρησιμοποίησε το πλήκτρο του κενού για μετάβαση στην επόμενη εικόνα, \n"
+"και το πλήκτρο Q για την απόκρυψη του παράθυρου."
+
+#: setup.c:3596
+msgid "Run in foreign window"
+msgstr "Εκτέλεση σε ξένο παράθυρο"
+
+#: setup.c:3598
+msgid "Runs in any selected window in your desktop"
+msgstr "Εκτελείτε σε οποιοδήποτε επιλεγμένο παράθυρο, στην επιφάνεια εργασίας"
+
+#: setup.c:3606
+msgid "Act as screensaver"
+msgstr "Λειτουργία σαν προστασία οθόνης"
+
+#: setup.c:3608
+msgid "Click mouse once to quit screensaver mode. Runs in full-screen mode."
+msgstr ""
+"Με μονό κλικ του ποντικιού, παραιτείται από τη λειτουργία προστασίας της οθόνης.\n"
+"Εκτελείται σε κατάσταση λειτουργία πλήρους οθόνης."
+
+#: setup.c:3618
+msgid "Act as xscreensaver hack"
+msgstr "Λειτουργία σαν \"πείραγμα\" του xscreensaver"
+
+#: setup.c:3620
+msgid ""
+"This option is usable to generate ChBg scenario files for use with Xscreensaver.\n"
+"When using directly from this ChBg setup, it will not work."
+msgstr ""
+
+#: setup.c:3633
+msgid "Set desktop background via Enlightenment (0.16<)"
+msgstr "Ορισμός του παρασκηνίου της επιφάνειας εργασίας, μέσω της Ενλάιτμεντ (0.16<)"
+
+#: setup.c:3635
+msgid "When you will select this option, ChBg will attempt to use Enlightenemnt WM capabilities to manage background of your desktop."
+msgstr ""
+
+#: setup.c:3647
+msgid "Generate picture into PNG file"
+msgstr "Παραγωγή της εικόνας σε ένα αρχείο PNG"
+
+#: setup.c:3649
+msgid ""
+"Store composed picture to file instead of setting desktop window background\n"
+"Don't forget to set the file informations below."
+msgstr ""
+
+#: setup.c:3657
+msgid "PNG file rendering infos"
+msgstr "Πληροφορίες αποτύπωσης του αρχείου PNG"
+
+#: setup.c:3668
+msgid "File name: "
+msgstr "Όνομα αρχείου: "
+
+#: setup.c:3671
+msgid "Width: "
+msgstr "Πλάτος: "
+
+#: setup.c:3674
+msgid "Height: "
+msgstr "Ύψος: "
+
+#: setup.c:3679
+msgid "Foreign window infos"
+msgstr "Πληροφορίες του ξένου παράθυρου"
+
+#: setup.c:3690
+msgid "Window ID: "
+msgstr "Αριθμός ταυτότητας παράθυρου: "
+
+#: setup.c:3693
+msgid "Choose ..."
+msgstr "Επιλογή..."
+
+#: setup.c:3704
+msgid "Send expose event to window"
+msgstr "Αποστολή του γεγονότος έκθεσης στο παράθυρο"
+
+#: setup.c:3724
+msgid "Setup"
+msgstr "Ρύθμιση"
+
+#: setup.c:3727
+msgid "Miscelanous settings"
+msgstr "Διάφορες ρυθμίσεις"
+
+#: setup.c:3736
+msgid "Force background to Nautilus "
+msgstr "Εξαναγκασμός του παρασκηνίου στον Nautilus"
+
+#: setup.c:3743
+msgid "Randomize picture order"
+msgstr "Τυχαία σειρά των εικόνων"
+
+#: setup.c:3750
+msgid "Show blank screen when unable to load picture"
+msgstr "Εμφάνιση κενής οθόνης, όταν είναι αδύνατο το φόρτωμα εικόνας"
+
+#: setup.c:3752
+msgid "Useful for determining whether you have files in your picture list which either images which imlib can't handle or the files are not images such as html, text, etc."
+msgstr ""
+
+#: setup.c:3762
+msgid "Cycle blank screens"
+msgstr "Εναλλαγή των κενών οθονών"
+
+#: setup.c:3764
+msgid "HINT: To see only pure shading effects, enable this option, clear picture list and select random shading effect."
+msgstr ""
+
+#: setup.c:3774
+msgid "Remember last picture"
+msgstr "Απομνημόνευση της τελευταίας εικόνας"
+
+#: setup.c:3776
+msgid "Usefull when you maintain long picture lists and you want to start next time where you stops"
+msgstr "Χρήσιμο όταν υπάρχουν κατάλογοι με πολλές εικόνες, και θέλεις το Chbg να ξεκινάει, την επόμενη φορά, εκεί που σταμάτησε την προηγούμενη."
+
+#: setup.c:3788
+msgid "Picture changing effect speed ratio: "
+msgstr "Αναλογία ταχύτητας του εφέ εναλλαγής των εικόνων: "
+
+#: setup.c:3794
+msgid ""
+"Used to change the speed of picture changing effects.\n"
+"On slow machines choose faster and on very fast machines choose slower."
+msgstr ""
+
+#: setup.c:3817
+msgid "Number of iterations in fractal-based effects: "
+msgstr "Το πλήθος των επαναλήψεων, για τις γρίλιες που βασίζονται στα φρακτάλια: "
+
+#: setup.c:3821
+msgid "Useful for speedup all fractalbased background shading effects or to generate more detailed fractals."
+msgstr "Χρησιμεύει, για την επιτάχυνση όλων των εφέ παρασκηνίου γρίλιας, τα οποία βασίζονται στα φρακτάλια, ή για την παραγωγή φρακτάλιων με περισσότερες λεπτομέρειες."
+
+#: setup.c:3825
+msgid "Picture changing effects rectangle size: "
+msgstr "Μέγεθος του τετραγώνου αλλαγής των εικόνων: "
+
+#: setup.c:3829
+msgid "Useful for speedup picture changing effects which uses rectangles."
+msgstr ""
+
+#: setup.c:3870
+msgid "Random effects"
+msgstr "Τυχαία εφέ"
+
+#: setup.c:3873
+msgid "Enabled changing effects in random mode"
+msgstr "Ενεργοποιημένα τα εφέ αλλαγής στη τυχαία κατάσταση λειτουργίας"
+
+#: setup.c:3888
+#: setup.c:3938
+#: thumb.c:2113
+msgid "Select all"
+msgstr "Επιλογή όλων"
+
+#: setup.c:3895
+#: setup.c:3945
+msgid "Unselect all"
+msgstr "Αποεπιλογή όλων"
+
+#: setup.c:3903
+msgid "Eliminate unwanted Picture changing effects [2-29] when randomizing."
+msgstr ""
+
+#: setup.c:3923
+msgid "Enabled shading effects in random mode"
+msgstr "Ενεργοποιημένα τα εφέ γρίλιας σε κατάσταση τύχης"
+
+#: setup.c:3953
+msgid "Eliminate unwanted Background shading effects [2-62] when randomizing."
+msgstr ""
+
+#: setup.c:3996
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: setup.c:3999
+msgid "Picture informations"
+msgstr "Πληροφορίες εικόνας"
+
+#: setup.c:4007
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+#: setup.c:4020
+msgid "Image:"
+msgstr "Εικόνα:"
+
+#: setup.c:4033
+msgid "Effect: "
+msgstr "Εφέ:"
+
+#: setup.c:4046
+msgid "Shader: "
+msgstr "Γρίλια: "
+
+#: setup.c:4060
+msgid "Gradient: "
+msgstr "Διαβάθμιση:"
+
+#: setup.c:4075
+msgid "Banner: "
+msgstr "Λογότυπο:"
+
+#: setup.c:4087
+msgid "Tille: "
+msgstr "Μωσαϊκό: "
+
+#: setup.c:4156
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: setup.c:4160
+#: setup.c:4168
+#: setup.c:4175
+#: setup.c:4180
+#: setup.c:4183
+#: setup.c:4185
+msgid "none"
+msgstr "κανένα"
+
+#: settings.c:81
+msgid "Main"
+msgstr "Κύρια"
+
+#: settings.c:84
+msgid "Slideshow interval: "
+msgstr "Μεσοδιάστημα προβολής σλάιντ:"
+
+#: settings.c:94
+msgid "In picture preview you can activate automatic slideshows, this value is used to determine period for picture changes."
+msgstr ""
+
+#: settings.c:100
+msgid " sec."
+msgstr " δευτ."
+
+#: settings.c:105
+msgid "Shader open width: "
+msgstr "Πλάτος ανοίγματος των γριλιών"
+
+#: settings.c:115
+msgid "From shader preview dialog, you can create pictures in PNG format and thus way export it to external image processing programs. This value specifies the width of shaded picture which will be passed to external program."
+msgstr ""
+
+#: settings.c:121
+#: settings.c:142
+#: shaderpv.c:381
+msgid " pixels"
+msgstr " εικονοστοιχεία"
+
+#: settings.c:126
+msgid "Shader open height: "
+msgstr "Ύψος ανοίγματος των γριλιών"
+
+#: settings.c:136
+msgid "From shader preview dialog, you can create pictures in PNG format and thus way export it to external image processing programs. This value specifies the height of shaded picture which will be passed to external program."
+msgstr ""
+
+#: settings.c:147
+msgid "Shaders per page: "
+msgstr "Γρίλιες ανά σελίδα: "
+
+#: settings.c:158
+msgid "Currently chbg have many shading effects. It takes horrible ammount of time to render such amount of pictures, so it is clever to let it render per pages. This value allows you to specify how many shaders will be on one page."
+msgstr ""
+
+#: settings.c:168
+msgid "Confirm picture remove"
+msgstr "Επιβεβαίωση απομάκρυνσης της εικόνας"
+
+#: settings.c:169
+msgid "In thumbnail preview dialogs you can select multiple pictures for removing. At default chbg shows dialog to confirm removing of each picture. With this option you can turn on/off displaying of that dialog. When picture removing dialog is disallowed, all selected pictures will be removed without any question !"
+msgstr ""
+
+#: settings.c:175
+msgid "Picture preview window type"
+msgstr "Τύπος παράθυρου της προεπισκόπησης εικόνας"
+
+#: settings.c:186
+msgid "Raw - fullsize window"
+msgstr "Ακατέργαστο - παράθυρο πλήρους μεγέθους"
+
+#: settings.c:187
+msgid "With this option you can contol what type of picture preview dialog you will see. When you will select this option, chbg will display picture always in window with same size as have picture. This is not good idea when picture is too big to fit to screen size, but is ideal for normal size pictures."
+msgstr ""
+
+#: settings.c:195
+msgid "Scrolled window"
+msgstr "Κυλιόμενο παράθυρο"
+
+#: settings.c:196
+msgid "With this option you can contol what type of picture preview dialog you will see. When you will select this option, chbg will display picture in window inside which you can scroll picture by draging mouse, when picture is bigger than current size of window. Size of this dialog always attempt to fit to screen size."
+msgstr ""
+
+#: settings.c:202
+msgid "Picture scrolling type"
+msgstr "Τύπος κύλισης εικόνας"
+
+#: settings.c:213
+msgid "Smooth drag"
+msgstr "Ομαλό σύσριμο"
+
+#: settings.c:214
+msgid "If you have selected above \"Scrolled window\" preview window type. With this options you can control when will be picture redisplayed when draging it. If you will select this option, the preview window will be redrawed immediatly when you move your mouse. I suggest to use it only when you have fast enough computer."
+msgstr ""
+
+#: settings.c:222
+msgid "Jumping drag"
+msgstr "Αναπηδούμενο σύσριμο"
+
+#: settings.c:223
+msgid "If you have selected above \"Scrolled window\" preview window type. With this options you can control when will be picture redisplayed when draging it. If you will select this option, the preview window will be redrawed just when you will finish the mouse drag. I suggest to use it only when you have slower computer."
+msgstr ""
+
+#: settings.c:243
+msgid "External editors"
+msgstr "Εξωτερικοί Επεξεργαστές"
+
+#: settings.c:246
+msgid "No."
+msgstr "Αριθμ."
+
+#: settings.c:250
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: settings.c:254
+msgid "Command"
+msgstr "Εντολή"
+
+#: settings.c:295
+msgid "ChBg: Options"
+msgstr "ChBg: Επιλογές"
+
+#: settings.c:317
+msgid "Ok"
+msgstr "Εντάξει"
+
+#: shader.c:828
+msgid "Generating background shading effect"
+msgstr "Δημιουργείται το εφέ σκίασης του παρασκηνίου"
+
+#: shaderpv.c:84
+#, c-format
+msgid "ChBg: shader %d"
+msgstr "ChBg: γρίλια %d"
+
+#: shaderpv.c:324
+msgid "ChBg: save shader"
+msgstr "ChBg: αποθήκευση της γρίλιας"
+
+#: shaderpv.c:352
+msgid "Size: "
+msgstr "Μέγεθος: "
+
+#: shaderpv.c:369
+msgid " x "
+msgstr " x "
+
+#: shaderpv.c:555
+#: shaderpv.c:744
+msgid "Chbg: shaders preview (wait ...)"
+msgstr "Chbg: προεπισκόπηση της γρίλιας (αναμονή ...)"
+
+#: shaderpv.c:613
+#, c-format
+msgid ""
+"Shader number: %d\n"
+"Gradient: %s"
+msgstr ""
+"Αριθμός της γρίλιας: %d\n"
+"Διαβάθμιση: %s"
+
+#: shaderpv.c:619
+#, c-format
+msgid ""
+"Shader number: %d\n"
+"Color1: #%02x%02x%02x\n"
+"Color2: #%02x%02x%02x"
+msgstr ""
+"Αριθμός της γρίλιας: %d\n"
+"Χρώμα1: #%02x%02x%02x\n"
+"Χρώμα2: #%02x%02x%02x"
+
+#: shaderpv.c:638
+msgid "Chbg: shaders preview"
+msgstr "Chbg: προεπισκόπηση της γρίλιας"
+
+#: shaderpv.c:773
+#: thumb.c:2515
+msgid "<< previous"
+msgstr "<< προηγούμενο"
+
+#: shaderpv.c:808
+#: thumb.c:2527
+msgid "next >>"
+msgstr "επόμενο >>"
+
+#: shaderpv.c:847
+#: thumb.c:2338
+#: thumb.c:2555
+#: thumb.c:2741
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: shaderpv.c:856
+#: thumb.c:2093
+msgid "View ..."
+msgstr "Προβολή..."
+
+#: shaderpv.c:864
+#: thumb.c:979
+#: thumb.c:2156
+msgid "Set wallpaper"
+msgstr "Ορισμός ως ταπετσαρία"
+
+#: shaderpv.c:876
+msgid "Save as ..."
+msgstr "Αποθήκευση ως..."
+
+#: shaderpv.c:889
+#: thumb.c:971
+#: thumb.c:2247
+msgid "Open with"
+msgstr "Άνοιγμα με"
+
+#: thumb.c:402
+#, c-format
+msgid "ChBg: picture %s"
+msgstr "ChBg: εικόνα %s"
+
+#: thumb.c:948
+msgid "(n) Next"
+msgstr "(n) Επόμενη"
+
+#: thumb.c:955
+msgid "(p) Previous"
+msgstr "(p) Προηγούμενη"
+
+#: thumb.c:984
+#: thumb.c:2162
+msgid "Tiled"
+msgstr "Πλακίδια"
+
+#: thumb.c:992
+#: thumb.c:2170
+msgid "Tiled-mirrored"
+msgstr "Μωσαϊκό-καθρεπτισμένο"
+
+#: thumb.c:1000
+#: thumb.c:2178
+msgid "Maximized"
+msgstr "Μεγιστοποιημένο"
+
+#: thumb.c:1008
+#: thumb.c:2186
+msgid "Centered"
+msgstr "Κεντραρισμένη"
+
+#: thumb.c:1016
+#: thumb.c:2194
+msgid "Smart scaled centered"
+msgstr "Έξυπνη αλλαγή μεγέθους, κεντραρισμένη"
+
+#: thumb.c:1024
+#: thumb.c:2202
+msgid "Center tiled"
+msgstr "Κεντραρισμένο σε παράθεση"
+
+#: thumb.c:1032
+#: thumb.c:2210
+msgid "Integer tiled"
+msgstr "Ακέραιο μωσαϊκό"
+
+#: thumb.c:1040
+#: thumb.c:2218
+msgid "Symetrical tiled"
+msgstr "Συμμετρικό μωσαϊκό"
+
+#: thumb.c:1048
+#: thumb.c:2226
+msgid "Integer mirrored"
+msgstr "Ακέραιος καθρεπτισμός"
+
+#: thumb.c:1056
+#: thumb.c:2234
+msgid "Symetrical mirrored"
+msgstr "Συμμετρικά κατοπτρισμένο"
+
+#: thumb.c:1068
+msgid "(d) Size double"
+msgstr "(d) Διπλό μέγεθος"
+
+#: thumb.c:1075
+msgid "(h) Size half"
+msgstr "(h) Μισό μέγεθος"
+
+#: thumb.c:1082
+#, c-format
+msgid "(+) Size +10 %"
+msgstr "(+) Μέγεθος +10 %"
+
+#: thumb.c:1089
+#, c-format
+msgid "(-) Size -10 %"
+msgstr "(-) Μέγεθος -10 %"
+
+#: thumb.c:1096
+msgid "(o) Size original"
+msgstr "(o) Μέγεθος αρχικό"
+
+#: thumb.c:1107
+msgid "(m) Flip horizontal"
+msgstr "(m) Αναστροφή οριζόντια"
+
+#: thumb.c:1114
+msgid "(v) Flip vertical"
+msgstr "(v) Αναστροφή κατακόρυφα"
+
+#: thumb.c:1125
+msgid "(s) Toggle slideshow"
+msgstr "(s) Εναλλαγή της συνεχόμενης προβολής"
+
+#: thumb.c:1136
+msgid "(q) Close"
+msgstr "(q) Κλείσιμο"
+
+#: thumb.c:1488
+msgid "Chbg: all thumbnails preview (wait ...)"
+msgstr "Chbg: επισκόπηση όλων των εικονιδίων (αναμονή ...)"
+
+#: thumb.c:1503
+msgid "Chbg: all thumbnails preview"
+msgstr "Chbg: επισκόπηση όλων των εικονιδίων"
+
+#: thumb.c:1692
+msgid "Remove picture ?"
+msgstr "Απομάκρυνση της εικόνας;"
+
+#: thumb.c:1696
+msgid "Do you realy want to remove this picture?"
+msgstr "Θέλεις πραγματικά να απομακρυνθεί αυτή η εικόνα;"
+
+#: thumb.c:1719
+msgid "Yes"
+msgstr "Ναι"
+
+#: thumb.c:1725
+msgid "No"
+msgstr "Όχι"
+
+#: thumb.c:1902
+msgid "ChBg: rename image"
+msgstr "ChBg: μετονομασία εικόνας"
+
+#: thumb.c:1910
+msgid "Image to rename"
+msgstr "Εικόνα προς μετονομασία"
+
+#: thumb.c:1927
+msgid "Original name:"
+msgstr "Αρχικό όνομα:"
+
+#: thumb.c:1938
+msgid "New name:"
+msgstr "Νέο όνομα:"
+
+#: thumb.c:1954
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: thumb.c:1962
+msgid "Don't rename"
+msgstr "Να μη γίνει μετονομασία"
+
+#: thumb.c:2101
+msgid "View fullscreen ..."
+msgstr "Προβολή πλήρους οθόνης..."
+
+#: thumb.c:2132
+msgid "Remove ..."
+msgstr "Απομάκρυνση..."
+
+#: thumb.c:2140
+msgid "Rename ..."
+msgstr "Μετονομασία..."
+
+#: thumb.c:2258
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: thumb.c:2297
+msgid "Chbg: thumbnails preview (wait ...)"
+msgstr "Chbg: επισκόπηση των εικονιδίων (αναμονή ...)"
+
+#: thumb.c:2364
+#: thumb.c:2490
+msgid "Chbg: page thumbnails preview (wait ...)"
+msgstr "Chbg: επισκόπηση των εικονιδίων σελίδας (αναμονή ...)"
+
+#: thumb.c:2399
+msgid "Chbg: page thumbnails preview"
+msgstr "Chbg: επισκόπηση των εικονιδίων σελίδας"
+
+#: thumb.c:2579
+#: thumb.c:2696
+msgid "Chbg: dir thumbnails preview (wait ...)"
+msgstr "Chbg: επισκόπηση των εικονιδίων καταλόγου (αναμονή ...)"
+
+#: thumb.c:2610
+msgid "Chbg: dir thumbnails preview"
+msgstr "Chbg: επισκόπηση των εικονιδίων καταλόγου"
+
